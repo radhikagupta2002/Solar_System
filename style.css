@@ -1,0 +1,80 @@
+h1 {
+  color: #2fff00;
+}
+
+.name {
+  color: snow;
+  text-align: center;
+  text-decoration: solid;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+  background-image: url("background.jpg");
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.way {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.ow {
+  color: #ffc107;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 15px;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.planet {
+  width: 100%;
+  height: 100%;
+}
+
+.planet img {
+  height: 35vh;
+  
+}
+
+input {
+  padding: auto;
+  text-align: center;
+  display: inline;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  display: inline;
+}
+
+.weight {
+  display: flexbox;
+}
+
+.master {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}

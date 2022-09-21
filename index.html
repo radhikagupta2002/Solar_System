@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <link rel="icon" type="image/x-icon" href="solarsystem.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <center>
+        <h1 class="txt anim-text-flow">Enter Your Mass:</h1>
+    </center>
+
+    <center>
+        <div class="weight">
+            <input type="number" id="root" placeholder="Mass">
+            <button type="button" class="btn btn-light btn-rounded"
+                onclick="Sw(); Mw(); Vw(); Ew(); Mow(); Maw(); Jw(); Saw(); Uw(); Nw(); Pw()">Calculate All</button>
+        </div>
+    </center>
+    <br>
+    <br>
+    <div class="way">
+
+        <div class="master">
+            <div class="name" onclick="Sw()">
+                SUN
+            </div>
+            <div class="planet" onclick="Sw()">
+                <img src="sun.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="sun"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Mw()">
+                MERCURY
+            </div>
+            <div class="planet" onclick="Mw()">
+                <img src="mercury.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="mercury"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Vw()">
+                VENUS
+            </div>
+            <div class="planet" onclick="Vw()">
+                <img src="venus.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="venus"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Ew()">
+                EARTH
+            </div>
+            <div class="planet" onclick="Ew()">
+                <img src="earth.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="earth"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Mow()">
+                MOON
+            </div>
+            <div class="planet" onclick="Mow()">
+                <img src="moon.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="moon"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Maw()">
+                MARS
+            </div>
+            <div class="planet" onclick="Maw()">
+                <img src="mars.gif">
+            </div>
+            <br>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="mars"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Jw()">
+                JUPITER
+            </div>
+            <div class="planet" onclick="Jw()">
+                <img src="jupiter.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <br>
+                <span class="ow" id="jupiter"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Saw()">
+                SATURN
+            </div>
+            <div class="planet" onclick="Saw()">
+                <img src="saturn.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="saturn"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Uw()">
+                URANUS
+            </div>
+            <div class="planet" onclick="Uw()">
+                <img src="uranus.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="uranus"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Nw()">
+                NEPTUNE
+            </div>
+            <div class="planet" onclick="Nw()">
+                <img src="neptune.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="neptune"> </span>
+            </div>
+        </div>
+
+        <div class="master">
+            <div class="name" onclick="Pw()">
+                PLUTO
+            </div>
+            <div class="planet" onclick="Pw()">
+                <img src="pluto.gif">
+            </div>
+            <br>
+            <div class="yourweight">
+                <span class="ow" id="pluto"> </span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
